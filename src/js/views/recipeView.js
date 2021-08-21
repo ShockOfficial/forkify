@@ -1,7 +1,6 @@
 // import icons from '../img/icons.svg';  // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2
-// import { Fraction } from './node_modules/fractional';
-import { Fraction } from '../../../node_modules/fractional';
+var Fraction = require('fractional').Fraction;
 import View from './View';
 
 class RecipeView extends View {
